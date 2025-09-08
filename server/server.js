@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 import { startAllCrons } from "./cron/index.js";
 import app from "./app.js";
 
-// ====== Cron jobs ======
+/* // ====== Cron jobs ======
 startAllCrons();
 
 // ====== Socket.IO ======
@@ -37,7 +37,7 @@ io.on("connection", (socket) => {
   });
 });
 
-export { io, onlineUsers, onlineRecruiter };
+export { io, onlineUsers, onlineRecruiter }; */
 
 // ====== Chạy local ======
 const PORT = process.env.PORT || 5000;
